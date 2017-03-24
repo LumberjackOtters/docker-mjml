@@ -1,7 +1,7 @@
 # set the base image first
-FROM purplebabar/docker-symfony
+FROM purplebabar/symfony
 
 # specify maintainer
-MAINTAINER Alexandre Lalung <lalung.alexandre@gmail.com>
+MAINTAINER PurpleBabar <lalung.alexandre@gmail.com>
 
-RUN npm install -g npm@latest mjml
+RUN npm install -g npm@latest && npm install -g mjml
